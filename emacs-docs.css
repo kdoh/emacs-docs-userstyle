@@ -1,0 +1,48 @@
+html {
+  background-color: #fff;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.2em;
+  line-height: 1.55em;
+  color: #202020;
+  box-shadow: none;
+}
+
+h4 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+hr { display: none; }
+
+p {
+  margin: 1.5em;
+}
+
+/*
+  use a monospace font and a highlight color for
+  all instances of code examples
+*/
+pre,
+kbd,
+samp,
+p code {
+  font-family: "Menlo", monospace;
+  color: #0074D9;
+}
+
+.node {
+  background-color: #fff !important;  
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+.node p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
